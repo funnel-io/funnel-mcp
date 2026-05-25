@@ -1,0 +1,9 @@
+{
+	"displayName": "Funnel",
+	"subtitle": "Cross-channel marketing analytics across 600+ connectors",
+	"description": "Funnel brings all your marketing data, semantics, and business context to your AI agent in one trusted integration covering Google Ads, Facebook Ads (Meta), TikTok Ads, LinkedIn Ads, Google Analytics, Microsoft Advertising (Bing Ads), Shopify, HubSpot and 600+ other platforms. Ask questions like \"Compare my spend, CPA, ROAS, and revenue across all my marketing channels in the last 6 months\" or \"Which campaigns generated the most HubSpot pipeline?\" and get the answers right where you do your work. EU customers (data residency): replace the server URL with https://mcp.eu.ai.funnel.io/mcp.",
+	"category": "BUSINESS",
+	"homepage": "https://funnel.io",
+	"termsOfService": "https://funnel.io/general-terms-and-conditions",
+	"privacyPolicy": "https://funnel.io/funnel-data-privacy-and-security"
+}

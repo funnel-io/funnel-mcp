@@ -1,0 +1,61 @@
+{
+	"app": {
+		"name": "funnel",
+		"displayName": "Funnel",
+		"subtitle": "Cross-channel marketing analytics across 600+ connectors",
+		"description": "Funnel brings all your marketing data, semantics, and business context to your AI agent in one trusted integration covering Google Ads, Facebook Ads (Meta), TikTok Ads, LinkedIn Ads, Google Analytics, Microsoft Advertising (Bing Ads), Shopify, HubSpot and 600+ other platforms. Ask questions like \"Compare my spend, CPA, ROAS, and revenue across all my marketing channels in the last 6 months\" or \"Which campaigns generated the most HubSpot pipeline?\" and get the answers right where you do your work. EU customers (data residency): replace the server URL with https://mcp.eu.ai.funnel.io/mcp.",
+		"category": "BUSINESS",
+		"homepage": "https://funnel.io",
+		"termsOfService": "https://funnel.io/general-terms-and-conditions",
+		"privacyPolicy": "https://funnel.io/funnel-data-privacy-and-security"
+	},
+	"servers": {
+		"us": "https://mcp.ai.funnel.io/mcp",
+		"eu": "https://mcp.eu.ai.funnel.io/mcp"
+	},
+	"oauth": { "enabled": true },
+	"tools": [
+		{
+			"name": "list_workspaces",
+			"description": "Lists Funnel workspaces accessible to the current user.",
+			"readOnly": true,
+			"destructive": false,
+			"openWorld": false
+		},
+		{
+			"name": "load_workspace",
+			"description": "Loads a workspace's available data: ad platforms, dimensions (campaign name, country, ad group, etc.), measures (spend, clicks, impressions), and metrics (CPC, CTR, ROAS, etc.).",
+			"readOnly": true,
+			"destructive": false,
+			"openWorld": false
+		},
+		{
+			"name": "search_fields",
+			"description": "Finds available dimensions, measures, and metrics in a workspace.",
+			"readOnly": true,
+			"destructive": false,
+			"openWorld": false
+		},
+		{
+			"name": "get_dimension_values",
+			"description": "Returns actual values for a dimension field within a date range — e.g., campaign names, country codes, ad group names, platform names.",
+			"readOnly": true,
+			"destructive": false,
+			"openWorld": false
+		},
+		{
+			"name": "query_data",
+			"description": "Queries advertising data from connected platforms.",
+			"readOnly": true,
+			"destructive": false,
+			"openWorld": false
+		},
+		{
+			"name": "prepare_data",
+			"description": "Loads raw, row-level data without aggregation — every individual data point as reported by the ad platform.",
+			"readOnly": true,
+			"destructive": false,
+			"openWorld": false
+		}
+	]
+}
