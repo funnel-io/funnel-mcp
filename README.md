@@ -54,6 +54,22 @@ Install from the [Cursor Marketplace](https://cursor.com/marketplace), or add ma
 gemini extensions install https://github.com/funnel-io/funnel-mcp
 ```
 
+### Google Antigravity
+
+Open **Manage MCP Servers → View raw config** to edit `mcp_config.json`, then add:
+
+```json
+{
+  "mcpServers": {
+    "funnel": {
+      "serverUrl": "https://mcp.ai.funnel.io/mcp"
+    }
+  }
+}
+```
+
+Antigravity uses `serverUrl` (not `url`) for remote MCP servers.
+
 ### VS Code (Copilot agent mode), Windsurf, Zed, Continue, or any other MCP client
 
 Add to your client's MCP config:
