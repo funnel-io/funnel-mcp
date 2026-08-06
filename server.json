@@ -1,12 +1,13 @@
 {
 	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+	"name": "io.funnel/mcp",
+	"description": "Query cross-channel marketing analytics with Funnel.",
 	"version": "1.0.0",
-	"name": "io.github.funnel-io/funnel-mcp",
-	"description": "Funnel brings all your marketing data, semantics, and business context to your AI agent in one trusted integration covering Google Ads, Facebook Ads (Meta), TikTok Ads, LinkedIn Ads, Google Analytics, Microsoft Advertising (Bing Ads), Shopify, HubSpot and 600+ other platforms. EU customers (data residency): replace the server URL with https://mcp.eu.ai.funnel.io/mcp.",
-	"url": "https://mcp.ai.funnel.io/mcp",
-	"transport": "streamable-http",
-	"auth": {
-		"type": "oauth2"
-	},
-	"homepage": "https://funnel.io"
+	"remotes": [
+		{
+			"type": "streamable-http",
+			"url": "https://mcp.ai.funnel.io/mcp"
+		}
+	],
+	"websiteUrl": "https://funnel.io"
 }

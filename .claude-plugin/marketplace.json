@@ -1,17 +1,14 @@
 {
 	"name": "funnel",
-	"owner": "funnel-io",
-	"metadata": {
-		"displayName": "Funnel",
-		"subtitle": "Cross-channel marketing analytics across 600+ connectors",
-		"category": "analytics",
-		"homepage": "https://funnel.io",
-		"license": "MIT"
+	"description": "Cross-channel marketing analytics across 600+ connectors",
+	"owner": {
+		"name": "Funnel"
 	},
 	"plugins": [
 		{
-			"type": "mcp",
-			"manifestPath": "plugin.json"
+			"name": "funnel",
+			"source": "./",
+			"description": "Connect your AI agent to Funnel marketing data to compare cross-channel performance, track pacing, and analyze campaigns."
 		}
 	]
 }

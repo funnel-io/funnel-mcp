@@ -1,7 +1,7 @@
 {
 	"name": "funnel",
 	"version": "1.0.0",
-	"description": "Funnel brings all your marketing data, semantics, and business context to your AI agent in one trusted integration covering Google Ads, Facebook Ads (Meta), TikTok Ads, LinkedIn Ads, Google Analytics, Microsoft Advertising (Bing Ads), Shopify, HubSpot and 600+ other platforms. Ask questions like \"Compare my spend, CPA, ROAS, and revenue across all my marketing channels in the last 6 months\" or \"Which campaigns generated the most HubSpot pipeline?\" and get the answers right where you do your work. EU customers (data residency): replace the server URL with https://mcp.eu.ai.funnel.io/mcp.",
+	"description": "Connect your AI agent to Funnel marketing data to compare cross-channel performance, track pacing, and analyze campaigns.",
 	"author": {
 		"name": "Funnel",
 		"url": "https://funnel.io"
@@ -34,10 +34,6 @@
 		"websiteURL": "https://funnel.io",
 		"privacyPolicyURL": "https://funnel.io/funnel-data-privacy-and-security",
 		"termsOfServiceURL": "https://funnel.io/general-terms-and-conditions",
-		"defaultPrompt": [
-			"Use Funnel to compare spend and ROAS across all my marketing channels last month.",
-			"Use Funnel to find which campaigns drove the most conversions last quarter."
-		],
 		"brandColor": "#013F33"
 	}
 }
