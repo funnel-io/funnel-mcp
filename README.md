@@ -152,9 +152,9 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 
 | Tool | Description |
 |------|-------------|
-| `list_workspaces` | Lists Funnel workspaces accessible to the current user. |
+| `list_workspaces` | Lists Funnel workspaces accessible to the current user, grouped by subscription. |
 | `load_workspace` | Loads a workspace's available data: ad platforms, dimensions (campaign name, country, ad group, etc.), measures (spend, clicks, impressions), and metrics (CPC, CTR, ROAS, etc.). |
-| `get_workspace_context` | Retrieves workspace context — administrator-defined conventions, business rules, and domain terminology — so analysis aligns with how your team works. Call once per workspace after load_workspace. |
+| `get_workspace_context` | Retrieves workspace context — administrator-authored conventions, business rules, and domain terminology — to improve analysis accuracy and terminology alignment. |
 | `search_fields` | Finds available dimensions, measures, and metrics in a workspace. |
 | `get_dimension_values` | Returns actual values for a dimension field within a date range — e.g., campaign names, country codes, ad group names, platform names. |
 | `query_data` | Queries advertising data from connected platforms. |
