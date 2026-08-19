@@ -26,15 +26,14 @@ Find **Funnel** in the ChatGPT app directory and connect your Funnel account.
 
 ### Claude
 
-In Claude.ai or Claude Desktop, open **Settings → Connectors**, choose **Add custom connector**, and enter the server URL for your region.
+Open **Customize → Connectors**, find **Funnel** in the Connectors Directory, and connect your account.
 
 ### Claude Code
 
-Add this repository as a marketplace and install the Funnel plugin:
+Add Funnel as a remote HTTP server:
 
-```text
-/plugin marketplace add funnel-io/funnel-mcp
-/plugin install funnel@funnel
+```bash
+claude mcp add --transport http funnel https://mcp.ai.funnel.io/mcp
 ```
 
 ### Cursor
