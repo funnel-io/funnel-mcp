@@ -1,0 +1,10 @@
+{
+	"mcpServers": {
+		"funnel": {
+			"serverUrl": "https://mcp.ai.funnel.io/mcp",
+			"oauth": {
+				"clientId": "4HiYmsg53mSStXa3UqfStADOhZ1tF6Y0"
+			}
+		}
+	}
+}

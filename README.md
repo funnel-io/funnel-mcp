@@ -45,7 +45,10 @@ Open **Settings → MCP** and add:
 {
   "mcpServers": {
     "funnel": {
-      "url": "https://mcp.ai.funnel.io/mcp"
+      "url": "https://mcp.ai.funnel.io/mcp",
+      "auth": {
+        "CLIENT_ID": "4HiYmsg53mSStXa3UqfStADOhZ1tF6Y0"
+      }
     }
   }
 }
@@ -61,15 +64,17 @@ codex plugin marketplace add funnel-io/funnel-mcp
 
 Then run `/plugins` in Codex and install `funnel`.
 
-### Gemini CLI
+### Antigravity CLI
 
-Install the repository extension:
+Install the repository as a native Antigravity plugin:
 
 ```text
-gemini extensions install https://github.com/funnel-io/funnel-mcp
+agy plugin install https://github.com/funnel-io/funnel-mcp
 ```
 
-### Google Antigravity
+Then run `/mcp` in Antigravity CLI to authenticate and inspect the Funnel server.
+
+### Google Antigravity IDE
 
 Open **Manage MCP Servers → View raw config** and add:
 

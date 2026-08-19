@@ -1,0 +1,5 @@
+{
+	"$schema": "https://antigravity.google/schemas/v1/plugin.json",
+	"name": "funnel",
+	"description": "Connect your AI agent to Funnel marketing data to compare cross-channel performance, track pacing, and analyze campaigns."
+}
