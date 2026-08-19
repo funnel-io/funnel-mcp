@@ -108,20 +108,6 @@ Add the server to VS Code's top-level `servers` configuration:
 }
 ```
 
-### Windsurf
-
-Add the server using Windsurf's `mcpServers` and `serverUrl` keys:
-
-```json
-{
-  "mcpServers": {
-    "funnel": {
-      "serverUrl": "https://mcp.ai.funnel.io/mcp"
-    }
-  }
-}
-```
-
 ### Zed
 
 Add the server to Zed's `context_servers` settings:
@@ -134,17 +120,6 @@ Add the server to Zed's `context_servers` settings:
     }
   }
 }
-```
-
-### Continue
-
-Add a Streamable HTTP server to Continue's YAML configuration:
-
-```yaml
-mcpServers:
-  - name: funnel
-    type: streamable-http
-    url: https://mcp.ai.funnel.io/mcp
 ```
 
 For any manual configuration above, replace `https://mcp.ai.funnel.io/mcp` with `https://mcp.eu.ai.funnel.io/mcp` when using Funnel's EU data-residency endpoint.
