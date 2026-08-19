@@ -22,15 +22,15 @@ All repository and catalog manifests use the global endpoint. If your Funnel wor
 
 ### ChatGPT
 
-Find **Funnel** in the ChatGPT app directory and connect your Funnel account.
+Find **Funnel** in the ChatGPT app directory and connect your Funnel account. See [Connect Funnel MCP to ChatGPT](https://help.funnel.io/en/articles/16522580).
 
 ### Claude
 
-Open **Customize → Connectors**, find **Funnel** in the Connectors Directory, and connect your account.
+Open **Customize → Connectors**, find **Funnel** in the Connectors Directory, and connect your account. See [Connect Funnel MCP to Claude](https://help.funnel.io/en/articles/15170890).
 
 ### Claude Code
 
-Add Funnel as a remote HTTP server:
+Add Funnel as a remote HTTP server. See [Connect Funnel MCP to Claude Code](https://help.funnel.io/en/articles/16526897).
 
 ```bash
 claude mcp add --transport http funnel https://mcp.ai.funnel.io/mcp
