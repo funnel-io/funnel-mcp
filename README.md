@@ -138,6 +138,35 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `get_dimension_values` | Returns actual values for a dimension field within a date range. |
 | `query_data` | Queries advertising data and stores named session tables for follow-up analysis. |
 | `prepare_data` | Loads raw, row-level data without aggregation for custom analysis and re-slicing. |
+| `list_guides` | List curated Funnel guides when guide_id is omitted. |
+| `list_budgets` | Lists the workspace's configured Plan budgets. |
+| `list_archived_budgets` | Lists the workspace's archived Plan budgets. |
+| `get_budget` | Reads one Plan budget's configuration by ID. |
+| `prepare_update_budget` | Proposes a budget name or description change without writing it. |
+| `prepare_archive_budget` | Proposes archiving one Plan budget without changing it yet. |
+| `prepare_restore_budget` | Proposes restoring one archived Plan budget without changing it yet. |
+| `execute_budget_change` | Applies an approved budget proposal exactly once. |
+| `list_connectors` | Lists connectors available for data-source setup in the workspace. |
+| `list_connector_templates` | Lists curated template candidates for a connector. |
+| `start_data_source_setup` | Starts guided data-source setup with the selected connector. |
+| `select_data_source_connection` | Selects a connection for an in-progress data-source setup. |
+| `select_data_source_remote_account` | Selects a remote account for an in-progress data-source setup. |
+| `start_data_source_authentication` | Returns the browser sign-in link for a connector. |
+| `list_data_source_templates` | Lists curated templates for the selected remote account. |
+| `select_data_source_template` | Selects a curated template for an in-progress data-source setup. |
+| `prepare_create_data_source` | Prepares a data-source creation proposal for user approval. |
+| `execute_create_data_source` | Creates a Data Source from an approved proposal. |
+| `mutate_fields` | Prepares custom field changes for user approval without writing anything. |
+| `apply_field_mutation` | Applies approved custom field changes from a prepared plan. |
+| `list_deleted_data_sources` | Lists soft-deleted Data Sources in the workspace for inspection and restoration. |
+| `inspect_data_source` | Reads the management state of one Data Source without changing it. |
+| `rename_data_source` | Renames one Data Source after explicit user approval. |
+| `set_data_source_downloads_enabled` | Enables or disables future downloads for a Data Source after explicit user approval. |
+| `set_data_source_use_in_funnel` | Includes or excludes a Data Source from Funnel reporting after explicit user approval. |
+| `reconnect_data_source` | Reconnects a Data Source to another connection after explicit user approval. |
+| `reconfigure_data_source` | Changes a Data Source's curated template after explicit user approval. |
+| `delete_data_source` | Soft-deletes a Data Source after explicit user approval. |
+| `restore_data_source` | Restores a soft-deleted Data Source after explicit user approval. |
 
 ## Resources
 
