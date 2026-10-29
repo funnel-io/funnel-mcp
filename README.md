@@ -148,6 +148,9 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `prepare_archive_budget` | Proposes archiving one Plan budget without changing it yet. |
 | `prepare_restore_budget` | Proposes restoring one archived Plan budget without changing it yet. |
 | `execute_budget_change` | Applies an approved budget proposal exactly once. |
+| `get_flexpoint_usage` | Reads the Flexpoints the workspace's subscription has used and has left. |
+| `get_flexpoint_usage_by_workspace` | Reads the subscription's Flexpoints per workspace. |
+| `get_flexpoint_usage_by_connector` | Reads the subscription's Flexpoints per connector and destination type. |
 | `list_connectors` | Lists connectors available for data-source setup in the workspace. |
 | `list_connector_templates` | Lists curated template candidates for a connector. |
 | `start_data_source_setup` | Starts guided data-source setup with the selected connector. |
