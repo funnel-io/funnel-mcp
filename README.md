@@ -177,6 +177,7 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `execute_create_data_source` | Creates a Data Source from an approved proposal. |
 | `mutate_fields` | Prepares custom field changes for user approval without writing anything. |
 | `apply_field_mutation` | Applies approved custom field changes from a prepared plan. |
+| `list_data_sources` | Lists active Data Sources in the workspace by name or connector, for inspection and management. |
 | `list_deleted_data_sources` | Lists soft-deleted Data Sources in the workspace for inspection and restoration. |
 | `inspect_data_source` | Reads the management state of one Data Source without changing it. |
 | `rename_data_source` | Renames one Data Source after explicit user approval. |
