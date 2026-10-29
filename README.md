@@ -165,6 +165,17 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `list_dashboards` | Lists the workspace's dashboards by title, with their IDs. |
 | `check_portal_dashboards` | Checks which dashboards could be added to a portal, without changing it. |
 | `list_brands` | Lists the portal brands of the workspace's subscription. |
+| `prepare_create_portal` | Proposes a new client portal without creating it yet. |
+| `prepare_update_portal` | Proposes a client portal rename, description or brand change without writing it. |
+| `prepare_delete_portal` | Proposes deleting one client portal without changing it yet. |
+| `prepare_add_dashboards_to_portal` | Proposes adding dashboards to a client portal without changing it yet. |
+| `prepare_remove_dashboards_from_portal` | Proposes removing dashboards from a client portal without changing it yet. |
+| `prepare_set_portal_dashboard_groups` | Proposes how a portal's dashboards are grouped and ordered, without writing it. |
+| `execute_portal_change` | Applies an approved client portal proposal exactly once. |
+| `prepare_create_brand` | Proposes a new portal brand without creating it yet. |
+| `prepare_update_brand` | Proposes a portal brand name or colour change without writing it. |
+| `prepare_delete_brand` | Proposes deleting one portal brand without changing it yet. |
+| `execute_brand_change` | Applies an approved portal brand proposal exactly once. |
 | `list_connectors` | Lists connectors available for data-source setup in the workspace. |
 | `list_connector_templates` | Lists curated template candidates for a connector. |
 | `start_data_source_setup` | Starts guided data-source setup with the selected connector. |
