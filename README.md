@@ -151,6 +151,14 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `get_flexpoint_usage` | Reads the Flexpoints the workspace's subscription has used and has left. |
 | `get_flexpoint_usage_by_workspace` | Reads the subscription's Flexpoints per workspace. |
 | `get_flexpoint_usage_by_connector` | Reads the subscription's Flexpoints per connector and destination type. |
+| `list_portals` | Lists the workspace's client portals with their brand, dashboard count and user count. |
+| `get_portal` | Reads one client portal of the workspace by ID. |
+| `list_portal_dashboards` | Lists the dashboards in one client portal. |
+| `get_portal_dashboard_groups` | Reads how a portal's dashboards are grouped and ordered for its viewers. |
+| `list_portal_users` | Lists the users who can open one client portal. |
+| `list_dashboards` | Lists the workspace's dashboards by title, with their IDs. |
+| `check_portal_dashboards` | Checks which dashboards could be added to a portal, without changing it. |
+| `list_brands` | Lists the portal brands of the workspace's subscription. |
 | `list_connectors` | Lists connectors available for data-source setup in the workspace. |
 | `list_connector_templates` | Lists curated template candidates for a connector. |
 | `start_data_source_setup` | Starts guided data-source setup with the selected connector. |
