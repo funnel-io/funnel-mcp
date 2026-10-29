@@ -139,6 +139,8 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `query_data` | Queries advertising data and stores named session tables for follow-up analysis. |
 | `prepare_data` | Loads raw, row-level data without aggregation for custom analysis and re-slicing. |
 | `list_guides` | List curated Funnel guides when guide_id is omitted. |
+| `list_exports` | Lists the workspace's configured data exports and views. |
+| `get_export` | Reads one export or view and returns its configuration and query template. |
 | `list_budgets` | Lists the workspace's configured Plan budgets. |
 | `list_archived_budgets` | Lists the workspace's archived Plan budgets. |
 | `get_budget` | Reads one Plan budget's configuration by ID. |
