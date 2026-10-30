@@ -150,6 +150,9 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `list_budgets` | Lists the workspace's configured Plan budgets. |
 | `list_archived_budgets` | Lists the workspace's archived Plan budgets. |
 | `get_budget` | Reads one Plan budget's configuration by ID. |
+| `list_conventions` | Lists the workspace's active Plan Conventions. |
+| `list_archived_conventions` | Lists the workspace's archived Plan Conventions. |
+| `get_convention` | Reads one active Plan Convention's patterns and output fields by ID. |
 | `prepare_update_budget` | Proposes a budget name or description change without writing it. |
 | `prepare_archive_budget` | Proposes archiving one Plan budget without changing it yet. |
 | `prepare_restore_budget` | Proposes restoring one archived Plan budget without changing it yet. |
