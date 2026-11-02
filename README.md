@@ -153,6 +153,12 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `list_conventions` | Lists the workspace's active Plan Conventions. |
 | `list_archived_conventions` | Lists the workspace's archived Plan Conventions. |
 | `get_convention` | Reads one active Plan Convention's patterns and output fields by ID. |
+| `allocate_convention_ids` | Allocates fresh pattern and output dimension IDs without changing workspace data. |
+| `prepare_create_convention` | Proposes a new Plan Convention and generated dimensions for approval. |
+| `prepare_update_convention` | Proposes replacing a Plan Convention definition and its generated dimensions. |
+| `prepare_archive_convention` | Proposes archiving a Plan Convention and linked records. |
+| `prepare_restore_convention` | Proposes restoring an archived Plan Convention and linked records. |
+| `execute_convention_change` | Applies one explicitly approved Plan Convention proposal. |
 | `prepare_update_budget` | Proposes a budget name or description change without writing it. |
 | `prepare_archive_budget` | Proposes archiving one Plan budget without changing it yet. |
 | `prepare_restore_budget` | Proposes restoring one archived Plan budget without changing it yet. |
