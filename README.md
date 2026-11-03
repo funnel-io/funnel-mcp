@@ -141,6 +141,8 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `list_guides` | List curated Funnel guides when guide_id is omitted. |
 | `list_exports` | Lists the workspace's configured data exports and views. |
 | `get_export` | Reads one export or view and returns its configuration and query template. |
+| `list_export_runs` | Lists an export's recent runs with their status and errors. |
+| `get_export_run` | Reads one export run's parts, file sizes, download links and failed steps. |
 | `list_export_connections` | Lists the user's own connections that can write to an export destination. |
 | `list_export_destinations` | Lists where Funnel data can be exported and how each destination is set up. |
 | `prepare_create_export` | Proposes a scheduled export to Google Sheets, BigQuery, Snowflake or Cloud Storage without creating it. |
