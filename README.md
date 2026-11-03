@@ -193,6 +193,7 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `select_data_source_connection` | Selects a connection for an in-progress data-source setup. |
 | `select_data_source_remote_account` | Selects a remote account for an in-progress data-source setup. |
 | `start_data_source_authentication` | Returns the browser sign-in link for a connector. |
+| `request_data_source_access` | Creates a shareable link that lets the owner of a connector account sign in for the user. |
 | `list_data_source_templates` | Lists curated templates for the selected remote account. |
 | `select_data_source_template` | Selects a curated template for an in-progress data-source setup. |
 | `prepare_create_data_source` | Prepares a data-source creation proposal for user approval. |
