@@ -165,6 +165,12 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `prepare_archive_budget` | Proposes archiving one Plan budget without changing it yet. |
 | `prepare_restore_budget` | Proposes restoring one archived Plan budget without changing it yet. |
 | `execute_budget_change` | Applies an approved budget proposal exactly once. |
+| `list_scheduled_tasks` | Lists the workspace's scheduled tasks: recurring prompts that run as their owner. |
+| `get_scheduled_task_runs` | Reads one scheduled task's recent runs and a preview of each result. |
+| `prepare_create_scheduled_task` | Proposes a new scheduled task for approval without creating it. |
+| `prepare_update_scheduled_task` | Proposes editing, pausing or resuming a scheduled task without changing it yet. |
+| `prepare_delete_scheduled_task` | Proposes deleting a scheduled task without deleting it yet. |
+| `execute_scheduled_task_change` | Applies an approved scheduled task proposal exactly once. |
 | `get_flexpoint_usage` | Reads the Flexpoints the workspace's subscription has used and has left. |
 | `get_flexpoint_usage_by_workspace` | Reads the subscription's Flexpoints per workspace. |
 | `get_flexpoint_usage_by_connector` | Reads the subscription's Flexpoints per connector and destination type. |
