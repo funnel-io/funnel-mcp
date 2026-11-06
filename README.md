@@ -146,6 +146,7 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `list_export_connections` | Lists the user's own connections that can write to an export destination. |
 | `list_export_destinations` | Lists where Funnel data can be exported and how each destination is set up. |
 | `prepare_create_export` | Proposes a scheduled export to Google Sheets, BigQuery, Snowflake or Cloud Storage without creating it. |
+| `prepare_create_view` | Proposes a Looker Studio view of workspace data without creating it. |
 | `prepare_set_export_enabled` | Proposes turning an export on or off without changing it. |
 | `prepare_run_export` | Proposes running an export now without running it. |
 | `execute_export_change` | Applies an approved export proposal exactly once. |
