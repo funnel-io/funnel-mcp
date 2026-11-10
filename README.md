@@ -176,6 +176,8 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `execute_create_workspace` | Creates one explicitly approved workspace proposal. |
 | `prepare_invite_to_workspace` | Proposes inviting up to 25 people to a workspace, with roles, for approval. |
 | `execute_invite_to_workspace` | Sends one explicitly approved set of workspace invites. |
+| `prepare_rename_workspace` | Proposes a new name for a workspace for approval. |
+| `execute_rename_workspace` | Renames a workspace as one explicitly approved proposal describes. |
 | `prepare_delete_field` | Proposes deleting one custom field for approval without deleting it. |
 | `execute_field_change` | Deletes an approved custom field; it does not check where the field is used. |
 | `copy_fields` | Copies custom fields from another workspace in the same subscription, after a dry-run check. |
