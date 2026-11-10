@@ -174,8 +174,8 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `execute_scheduled_task_change` | Applies an approved scheduled task proposal exactly once. |
 | `prepare_create_workspace` | Proposes a new workspace in the current subscription for approval. |
 | `execute_create_workspace` | Creates one explicitly approved workspace proposal. |
-| `prepare_invite_to_workspace` | Proposes inviting up to 25 people to a workspace, with roles, for approval. |
-| `execute_invite_to_workspace` | Sends one explicitly approved set of workspace invites. |
+| `prepare_set_workspace_users` | Proposes inviting people to a workspace or changing their roles, for approval. |
+| `execute_workspace_user_change` | Makes one explicitly approved set of workspace user changes. |
 | `prepare_rename_workspace` | Proposes a new name for a workspace for approval. |
 | `execute_rename_workspace` | Renames a workspace as one explicitly approved proposal describes. |
 | `prepare_delete_field` | Proposes deleting one custom field for approval without deleting it. |
