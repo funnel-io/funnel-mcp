@@ -196,8 +196,9 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `list_portal_users` | Lists the users who can open one client portal. |
 | `list_dashboards` | Lists the workspace's dashboards by title, with their IDs. |
 | `get_dashboard` | Reads one dashboard's saved cards, filters, date range and comparison, without data. |
+| `prepare_create_dashboard_share_link` | Proposes a new public share link for a dashboard for approval. |
 | `prepare_invalidate_dashboard_share_link` | Proposes invalidating one of a dashboard's public share links for approval. |
-| `execute_dashboard_share_link_change` | Invalidates one explicitly approved dashboard share link. |
+| `execute_dashboard_share_link_change` | Creates or invalidates one explicitly approved dashboard share link. |
 | `prepare_create_dashboard` | Proposes a new dashboard, or a copy of an existing one, without creating it yet. |
 | `prepare_append_dashboard_cards` | Proposes adding cards, such as a commentary text card, to a dashboard. |
 | `prepare_update_dashboard_text_cards` | Proposes new text for a dashboard's commentary text cards, leaving other cards as they are. |
