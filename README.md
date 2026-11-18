@@ -137,6 +137,10 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `search_fields` | Finds dimensions, measures, metrics, and connected Data Sources in a workspace. |
 | `get_dimension_values` | Returns actual values for a dimension field within a date range. |
 | `query_data` | Queries advertising data and stores named session tables for follow-up analysis. |
+| `visualize_data` | Render an interactive Funnel chart (hover tooltips, legend, axes formatted by unit) in clients that support MCP Apps. |
+| `visualize_budget_pacing` | Shows one budget period's spend against its targets as an interactive view. |
+| `visualize_creatives` | Shows the top ads with their creative images, ranked by a metric, as an interactive view. |
+| `get_creative_images` | Returns the top ads' creative images so the assistant can look at them. |
 | `prepare_data` | Loads raw, row-level data without aggregation for custom analysis and re-slicing. |
 | `list_guides` | List curated Funnel guides when guide_id is omitted. |
 | `list_exports` | Lists the workspace's configured data exports and views. |
