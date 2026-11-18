@@ -180,8 +180,8 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `execute_create_workspace` | Creates one explicitly approved workspace proposal. |
 | `prepare_set_workspace_users` | Proposes inviting people to a workspace or changing their roles, for approval. |
 | `execute_workspace_user_change` | Makes one explicitly approved set of workspace user changes. |
-| `prepare_rename_workspace` | Proposes a new name for a workspace for approval. |
-| `execute_rename_workspace` | Renames a workspace as one explicitly approved proposal describes. |
+| `prepare_update_workspace_settings` | Proposes changing a workspace's name or week start day for approval. |
+| `execute_update_workspace_settings` | Changes a workspace's settings as one explicitly approved proposal describes. |
 | `prepare_remove_workspace_users` | Proposes removing up to 25 people from a workspace for approval. |
 | `execute_workspace_user_removal` | Removes the people one explicitly approved proposal lists from a workspace. |
 | `list_workspace_users` | Lists a workspace's members with their emails and workspace roles. |
