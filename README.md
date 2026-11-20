@@ -143,6 +143,7 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `get_creative_images` | Returns the top ads' creative images so the assistant can look at them. |
 | `prepare_data` | Loads raw, row-level data without aggregation for custom analysis and re-slicing. |
 | `list_guides` | List curated Funnel guides when guide_id is omitted. |
+| `submit_feedback` | Report to the Funnel engineering team, at most once per task, when the tools, descriptions, or guides of this Funnel server materially slow or degrade your work. |
 | `list_exports` | Lists the workspace's configured data exports and views. |
 | `get_export` | Reads one export or view and returns its configuration and query template. |
 | `list_export_runs` | Lists an export's recent runs with their status and errors. |
