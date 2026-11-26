@@ -195,6 +195,7 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `prepare_delete_field` | Proposes deleting one custom field for approval without deleting it. |
 | `execute_field_change` | Deletes an approved custom field; it does not check where the field is used. |
 | `copy_fields` | Copies custom fields from another workspace in the same subscription, after a dry-run check. |
+| `describe_field` | Reads how fields are defined: formula or rules, dependencies and recent version history. |
 | `get_flexpoint_usage` | Reads the Flexpoints the workspace's subscription has used and has left. |
 | `get_flexpoint_usage_by_workspace` | Reads the subscription's Flexpoints per workspace. |
 | `get_flexpoint_usage_by_connector` | Reads the subscription's Flexpoints per connector and destination type. |
