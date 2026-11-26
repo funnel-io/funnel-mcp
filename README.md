@@ -140,6 +140,8 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `visualize_data` | Render an interactive Funnel chart (hover tooltips, legend, axes formatted by unit) in clients that support MCP Apps. |
 | `visualize_budget_pacing` | Shows one budget period's spend against its targets as an interactive view. |
 | `visualize_creatives` | Shows the top ads with their creative images, ranked by a metric, as an interactive view. |
+| `visualize_dashboard` | Shows a saved dashboard, or its open draft, as an interactive view drawn as the Dashboards app draws it. |
+| `query_dashboard_data` | Runs the queries the dashboard view builds for its cards; used by the view, not the assistant. |
 | `get_creative_images` | Returns the top ads' creative images so the assistant can look at them. |
 | `prepare_data` | Loads raw, row-level data without aggregation for custom analysis and re-slicing. |
 | `list_guides` | List curated Funnel guides when guide_id is omitted. |
@@ -214,6 +216,8 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `prepare_create_dashboard` | Proposes a new dashboard, or a copy of an existing one, without creating it yet. |
 | `prepare_append_dashboard_cards` | Proposes adding cards, such as a commentary text card, to a dashboard. |
 | `prepare_update_dashboard_cards` | Proposes changes to a dashboard's existing cards, such as commentary text or a chart's metrics, leaving other cards as they are. |
+| `prepare_edit_dashboard_draft` | Proposes changes to a dashboard's draft for approval, leaving the live dashboard as it is. |
+| `prepare_publish_dashboard_draft` | Proposes publishing a dashboard's open draft, at the revision the user looked at, for approval. |
 | `execute_dashboard_change` | Makes one explicitly approved dashboard change. |
 | `check_portal_dashboards` | Checks which dashboards could be added to a portal, without changing it. |
 | `list_brands` | Lists the portal brands of the workspace's subscription. |
