@@ -173,6 +173,10 @@ Funnel uses OAuth 2.0. Your MCP client sends you to Funnel to sign in on first u
 | `execute_convention_change` | Applies one explicitly approved Plan Convention proposal. |
 | `list_explorer_views` | Lists the workspace's saved Data Explorer views. |
 | `get_explorer_view` | Reads one saved Data Explorer view's fields, date range and filters, without data. |
+| `prepare_create_explorer_view` | Proposes a saved Data Explorer view with supplied fields, dates and filters for approval. |
+| `prepare_update_explorer_view` | Proposes changes to a saved Data Explorer view for approval. |
+| `prepare_delete_explorer_view` | Proposes soft-archiving a saved Data Explorer view for approval. |
+| `execute_explorer_view_change` | Saves or soft-archives an approved Data Explorer view change once. |
 | `prepare_create_budget` | Proposes creating a Plan budget without writing it. |
 | `prepare_edit_budget` | Proposes changing a budget's amounts, targets or dates without writing it. |
 | `prepare_update_budget` | Proposes a budget name or description change without writing it. |
